@@ -36,7 +36,7 @@
     "!*/__tests__"
   ],
   "dependencies": {
-    "node": "latest",
+    "node": "0.10.20",
     "@loopback/boot": "^3.4.1",
     "@loopback/core": "^2.16.1",
     "@loopback/repository": "^3.7.0",
