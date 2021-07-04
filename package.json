@@ -26,7 +26,8 @@
     "rebuild": "npm run clean && npm run build",
     "start": "node -r source-map-support/register .",
     "test": "lb-mocha --allow-console-logs \"dist/__tests__\"",
-    "test:dev": "lb-mocha --allow-console-logs dist/__tests__/**/*.js && npm run posttest"
+    "test:dev": "lb-mocha --allow-console-logs dist/__tests__/**/*.js && npm run posttest",
+    "heroku-postbuild": "npm run build"
   },
   "main": "dist/index.js",
   "files": [
