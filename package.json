@@ -36,7 +36,6 @@
     "!*/__tests__"
   ],
   "dependencies": {
-    "node": "0.10.20",
     "@loopback/boot": "^3.4.1",
     "@loopback/core": "^2.16.1",
     "@loopback/repository": "^3.7.0",
@@ -61,7 +60,7 @@
     "vuetify-loader": "^1.7.0"
   },
   "engines": {
-    "node": ">=10.16"
+    "node": "0.10.x"
   },
   "keywords": [
     "loopback-application",
